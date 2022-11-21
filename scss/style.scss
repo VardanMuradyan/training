@@ -1,0 +1,20 @@
+@import "reset";
+@import "vars";
+
+body{
+  background-color: $bg_color;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+@import "header";
+@import "advantages";
+@import "photo_gallery";
+@import "footer";
+
+
+@import "mobile_style";

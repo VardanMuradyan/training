@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="icon_video" data-name="icon/video" transform="translate(-1 -167)">
+    <path id="Path_1934" data-name="Path 1934" d="M0,0H16V16H0Z" transform="translate(1 167)" fill="none"/>
+    <path id="Path_1936" data-name="Path 1936" d="M4.468,4.5H7.943a2.346,2.346,0,0,1,2.468,2.437v4.127A2.346,2.346,0,0,1,7.943,13.5H4.468A2.346,2.346,0,0,1,2,11.063V6.937A2.346,2.346,0,0,1,4.468,4.5Zm8.307,1.427a.83.83,0,0,1,.824.038A.858.858,0,0,1,14,6.7V11.3a.857.857,0,0,1-.4.732.839.839,0,0,1-.446.13.831.831,0,0,1-.379-.092l-.889-.448a.974.974,0,0,1-.533-.874V7.25a.971.971,0,0,1,.533-.874Z" transform="translate(1 166)" fill="#e5c69e" fill-rule="evenodd"/>
+  </g>
+</svg>

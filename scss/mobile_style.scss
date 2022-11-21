@@ -1,0 +1,43 @@
+@media  screen  and (max-width: 1200px) {
+
+  .advantages__items-content {
+    flex-wrap: wrap;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+  .photo_gallery__items {
+    transform: translate(0);
+    overflow: scroll;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  ._items-content-box {
+    flex-direction: row;
+  }
+  .-content-box__img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 0;
+    margin-right: 12px;
+  }
+  ._items-content-box {
+    min-width: 320px;
+  }
+
+}
+
+
+@media screen and (max-width: 425px) {
+
+  ._items-content-box {
+    min-width: 314px;
+    padding: 16px;
+  }
+
+}
