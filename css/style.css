@@ -60,9 +60,87 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1248px;
   margin: 0 auto;
   padding: 0 24px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #EEEEEE;
+}
+
+.subtitle {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #B3B3B3;
+}
+
+.articles {
+  margin-bottom: 180px;
+}
+
+.articles_title {
+  margin-bottom: 8px;
+}
+
+.articles_subtitle {
+  margin-bottom: 40px;
+}
+
+.articles_inner {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.articles_items {
+  display: flex;
+  align-items: end;
+  width: 380px;
+  height: 214px;
+  min-width: 326px;
+  min-height: 184px;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(32, 27, 24, 0.2509803922);
+  margin-bottom: 10px;
+}
+
+.articles_items:first-child {
+  background-image: url("../images/article/1@2x.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.articles_items:nth-child(2) {
+  background-image: url("../images/article/2@2x.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.articles_items:nth-child(3) {
+  background-image: url("../images/article/3@2x.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.articles_items-title {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 8px;
+}
+
+.articles_items-subtitle {
+  font-size: 12px;
+  line-height: 18px;
 }
 
 .advantages {
@@ -74,7 +152,6 @@ body {
   text-transform: uppercase;
   font-size: 24px;
   font-weight: 700;
-  line-height: 18px;
   margin-bottom: 8px;
 }
 
@@ -370,9 +447,13 @@ body {
   padding-bottom: 30px;
 }
 .footer__footer span {
+  font-size: 12px;
+  line-height: 18px;
   color: #B3B3B3;
 }
 .footer__footer a {
+  font-size: 12px;
+  line-height: 18px;
   color: #B3B3B3;
   display: inline-block;
   transition: color 280ms ease-out;
@@ -384,6 +465,15 @@ body {
 @media screen and (max-width: 1200px) {
   .advantages__items-content {
     flex-wrap: wrap;
+  }
+  .advantages {
+    margin-bottom: 110px;
+  }
+  .articles_inner {
+    flex-wrap: wrap;
+  }
+  .articles {
+    margin-bottom: 110px;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -404,6 +494,12 @@ body {
   }
   ._items-content-box {
     min-width: 320px;
+  }
+  .advantages {
+    margin-bottom: 60px;
+  }
+  .articles {
+    margin-bottom: 60px;
   }
 }
 @media screen and (max-width: 425px) {

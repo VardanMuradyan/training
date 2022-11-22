@@ -149,9 +149,13 @@
   padding-bottom: 30px;
 
   span{
+    font-size: 12px;
+    line-height: 18px;
     color: $subtitle-color;
   }
   a{
+    font-size: 12px;
+    line-height: 18px;
     color: $subtitle-color;
     display: inline-block;
     transition: color 280ms ease-out;

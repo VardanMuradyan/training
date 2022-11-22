@@ -3,6 +3,15 @@
   .advantages__items-content {
     flex-wrap: wrap;
   }
+  .advantages {
+    margin-bottom: 110px;
+  }
+  .articles_inner{
+    flex-wrap: wrap;
+  }
+  .articles{
+    margin-bottom: 110px;
+  }
 
 }
 
@@ -28,6 +37,12 @@
   }
   ._items-content-box {
     min-width: 320px;
+  }
+  .advantages {
+    margin-bottom: 60px;
+  }
+  .articles{
+    margin-bottom: 60px;
   }
 
 }
