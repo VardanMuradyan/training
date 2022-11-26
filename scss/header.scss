@@ -3,13 +3,14 @@
   color: #B3B3B3;
   position: relative;
 }
-.header_container{
+
+.header_container {
   max-width: 1832px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-.header_inner{
+.header_inner {
   padding: 24px 0;
   display: flex;
   align-items: flex-start;
@@ -21,28 +22,31 @@
   display: inline-block;
 
 }
-.header_logo{
+
+.header_logo {
   min-width: 90px;
   min-height: 40px;
-  img{
+
+  img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
 }
 
-.header_search{
+.header_search {
   margin-left: auto;
 }
 
-.open_btn{
+.open_btn {
   width: 32px;
   height: 32px;
   font-size: 32px;
   color: $border_color;
   cursor: pointer;
 }
-.cross_btn{
+
+.cross_btn {
   margin-right: auto;
   width: 32px;
   height: 32px;
@@ -54,8 +58,9 @@
 
 .header_search {
   position: relative;
-  label{
-    input{
+
+  label {
+    input {
 
       border-radius: 4px;
       font-size: 14px;
@@ -68,7 +73,8 @@
       outline: none;
       background-color: $box-color;
     }
-    img{
+
+    img {
       width: 24px;
       height: 24px;
       object-fit: cover;
@@ -147,3 +153,12 @@
   }
 }
 
+/*Intro*/
+
+.intro{
+  height: 100vh;
+  background-image: url("../images/bg_img/Mask Group 4@2x.png");
+  background-repeat: no-repeat;
+  background-position: 30% center;
+  background-size: contain;
+}
