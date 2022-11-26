@@ -6,12 +6,45 @@
 		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="resurses/icomoon-v1.0/style.css">
 	<title>Deep training</title>
 </head>
 <body>
 
 <header class="header">
-
+	<div class="header_container">
+	<div class="header_inner">
+		<div class="header_menu">
+			<a onclick="toggleSideBarClassName()" class="open_btn icon-dehaze"></a>
+			<nav id="myNav" class="header_nav">
+				<a onclick="toggleSideBarClassName()" class="cross_btn icon-clear"></a>
+				<ul class="header_nav_list">
+					<li>
+						<a class="header_nav_list-link" href="#">Գլխավոր</a>
+						<a class="header_nav_list-link" href="#">Բոլոր դասընթացները</a>
+						<a class="header_nav_list-link" href="#">Բիզնես/ֆինանսական վերլուծություն</a>
+						<a class="header_nav_list-link" href="#">Տեսադարան</a>
+						<a class="header_nav_list-link" href="#">Մեր մասին</a>
+					</li>
+				</ul>
+				<div class="header_nav_social">
+					<i class="icon-facebook"><a href="#"></a></i>
+					<i class="icon-twitter"><a href="#"></a></i>
+					<i class="icon-linkedin2"><a href="#"></a></i>
+				</div>
+			</nav>
+		</div>
+		<div class="header_logo">
+			<img src="./images/icons/logo.svg" alt="logo">
+		</div>
+		<div class="header_search">
+			<label>
+				<input type="search" placeholder="Դասընթացների որոնում" name="" id="">
+				<img src="./images/icons/search.svg" alt="search">
+			</label>
+		</div>
+	</div>
+	</div>
 </header>
 
 <section class="articles">
@@ -172,5 +205,6 @@
 	</div>
 </footer>
 
+<script src="./js/main.js"></script>
 </body>
 </html>
