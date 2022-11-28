@@ -21,6 +21,13 @@
 .header_menu {
   display: inline-block;
 
+  .header_logo {
+    display: none;
+    margin: 0;
+    .header_menu_logo{
+      display: block;
+    }
+  }
 }
 
 .header_logo {
@@ -34,7 +41,6 @@
   img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
   }
 }
 
@@ -97,7 +103,6 @@
   z-index: 1000;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   padding: 24px 30px 30px 44px;
   background-color: $box-color;
   transition: transform 280ms ease-out;
@@ -113,6 +118,13 @@
     //backdrop-filter: blur(20px);
     background-color: rgba(46, 47, 51, 0.5);
   }
+}
+
+.header_nav-btn-logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
 }
 
 .menu__active {
@@ -140,6 +152,7 @@
   display: flex;
   gap: 30px;
   margin-top: auto;
+  justify-content: center;
 
   i {
     width: 24px;
